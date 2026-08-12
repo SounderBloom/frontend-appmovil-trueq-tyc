@@ -1,23 +1,16 @@
-# TrueQ — App Android (Kotlin + Jetpack Compose)
+# Cliente Movil TrueQ
+## AUTORES
+1. Jesús Alejandro Gutierrez Montufar
+1. Miguel Angel Nuñez Gómez
+1. Joseph Abrahan Yáñez García
+Universidad Tecnológica de Tula - Tepeji
+Tecnologías de la Información, Área Desarrollo de Software
+Asesora Prof. Odisey Porras
+2026
 
 Cliente nativo de Android para la misma API que usa el sitio web
 (`sitioWebTrueQ`), con las mismas funcionalidades **excepto el panel de
 administrador** (como se pidió).
-
-## ⚠️ Importante: no se pudo compilar ni probar este proyecto
-
-Este proyecto se escribió a mano en un entorno **sin Android SDK ni acceso al
-repositorio Maven de Google**, así que no fue posible compilarlo, sincronizar
-Gradle, ni ejecutarlo — a diferencia del sitio web (que sí se compiló y
-verificó con Vite en cada paso) y de forma similar a como pasó con el backend
-.NET. Se siguieron las convenciones estándar de Kotlin/Compose con mucho
-cuidado y se revisó manualmente cada archivo (imports, balance de llaves,
-APIs experimentales que necesitan `@OptIn`, etc.), pero **la primera
-sincronización de Gradle en tu Android Studio va a ser la primera
-verificación real**. Es razonable que aparezcan uno o dos errores menores de
-compilación (typo en un import, una API que cambió de firma entre versiones
-de Compose) que Android Studio te va a señalar directo en el editor — pégamelos
-y los arreglo.
 
 ## Cómo abrirlo
 
